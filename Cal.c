@@ -1,12 +1,22 @@
 #include <stdio.h>
 void add(int a,int b)
 {
-    printf("%d",  a + b);
+    int c= a+b;
+    if(c<0)
+	{
+		c=c*-1;
+	} 
+    printf("%d",  c);
 }
 
 void sub(int a,int b)
 {
-    printf("%d",  a - b);
+	int c= a-b;
+   	if(c<0)
+	{
+		c=c*-1;
+	}
+    printf("%d",  c);
 }
 
 int main()
