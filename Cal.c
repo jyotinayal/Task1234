@@ -2,21 +2,13 @@
 void add(int a,int b)
 {
     int c= a+b;
-    if(c<0)
-	{
-		c=c*-1;
-	} 
     printf("%d",  c);
 }
 
 void sub(int a,int b)
 {
 	int c= a-b;
-   	if(c<0)
-	{
-		c=c*-1;
-	}
-    printf("%d",  c);
+	printf("%d",  c);
 }
 
 int main()
