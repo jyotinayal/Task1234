@@ -9,6 +9,7 @@ void add(int a,int b)
     printf("%d",  c);
 }
 
+
 void sub(int a,int b)
 {
 	int c= a-b;
