@@ -1,7 +1,6 @@
 #include <stdio.h>
 void add(int a,int b)
 {
-//test1 changes
     int c= a+b+0;
     if(c<0)
 	{
