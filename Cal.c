@@ -1,8 +1,8 @@
 #include <stdio.h>
 void add(int a,int b)
 {
-//test1 changes
-    int c= a+b+0;
+//in the test1
+    int c= a+b;
     if(c<0)
 	{
 		c=c*-1;
